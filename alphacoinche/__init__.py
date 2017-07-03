@@ -1,1 +1,0 @@
-"""Main heuristic definitions."""
