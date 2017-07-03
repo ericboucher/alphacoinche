@@ -1,0 +1,9 @@
+pydealer
+# Used by `make test` and `make coverage` only:
+pytest==3.0.6
+pytest-cov==2.4.0
+# Used by `make lint` only:
+flake8==2.5.4
+flake8-import-order==0.7
+flake8-quotes==0.9.0
+pep257==0.7.0
