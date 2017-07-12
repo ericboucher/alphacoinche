@@ -1,0 +1,12 @@
+version: "2"
+services:
+  alphacoinche:
+    build:
+      context: .
+    volumes:
+      - ./alphacoinche:/home/alpha/work/alphacoinche:ro
+      - ./alphacoinche:/usr/local/lib/python3.6/site-packages/alphacoinche:ro
+      - ./tests:/home/alpha/work/tests:rw
+      - ./.pep8:/home/alpha/work/.pep8:ro
+      - ./Makefile:/home/alpha/work/Makefile:ro
+      - ./.coveragerc:/home/alpha/work/.coveragerc:ro
