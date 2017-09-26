@@ -11,5 +11,9 @@ test: FORCE
 coverage:
 	pytest --cov=alphacoinche
 
+# Start game.
+play:
+	python ./alphacoinche/runner.py
+
 # [Dummy dependency to force a make command to always run.]
 FORCE:

@@ -1,4 +1,4 @@
-pydealer
+pydealer==1.4.0
 # Used by `make test` and `make coverage` only:
 pytest==3.0.6
 pytest-cov==2.4.0
